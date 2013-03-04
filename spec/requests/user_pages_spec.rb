@@ -187,6 +187,8 @@ describe "UserPages" do
 				before {click_button "Follow"}
 				it {should have_selector('input', value: 'Unfollow')}
 			end
+
+			
 		end
 
 		describe "unfollowing a user" do
